@@ -1,0 +1,30 @@
+@import "compass";
+
+@include global-reset;
+
+
+#popover-bg {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	opacity: 0;
+	display: none;
+	z-index:10000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	@include transition(opacity 200ms ease-in-out);
+}
+.popover {
+	width: 100%;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index:1000;
+}
+
+.demo {
+	padding: 10px;
+
+}

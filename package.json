@@ -1,0 +1,28 @@
+{
+  "name": "smartphone_develop",
+  "version": "0.0.1",
+  "description": "",
+  "main": "Gruntfile.js",
+  "author": "watanabe-ei",
+  "dependencies": {
+    "prettify": "^0.1.7"
+  },
+  "devDependencies": {
+    "assemble": "^0.4.41",
+    "grunt": "~0.4.3",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-compass": "^1.0.1",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-contrib-copy": "",
+    "grunt-contrib-livereload": "~0.1.2",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.2",
+    "grunt-image": "^0.8.4",
+    "grunt-newer": "~0.6.0",
+    "grunt-typescript": "",
+    "handlebars-helper-prettify": "^0.2.1",
+    "load-grunt-tasks": "~0.2.0",
+    "time-grunt": "~0.2.0"
+  }
+}
