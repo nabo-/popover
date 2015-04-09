@@ -13,11 +13,12 @@
 	position: fixed;
 	top: 0;
 	left: 0;
-	@include transition(opacity 200ms ease-in-out);
+	@include transition(opacity 300ms ease-in-out);
 }
 .popover {
 	width: 100%;
 	display: none;
+	visibility: hidden;
 	position: absolute;
 	top: 0;
 	left: 0;
