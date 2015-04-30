@@ -93,7 +93,8 @@ module Dialog {
 
 			setTimeout(function(){
 				$(window).scrollTop(0);
-				$('#page').hide();
+                $('#page').css('display', 'none');
+				// $('#page').hide();
 			}, _this.base_duration + 101);
 		}
 
@@ -106,7 +107,8 @@ module Dialog {
 			}, _this.base_duration);
 
 			setTimeout(function(){
-				$('#page').show();
+                $('#page').css('display', '');
+				// $('#page').show();
 				$(window).scrollTop(_this.page_scrollY);
 			}, _this.base_duration + 1);
 		}
